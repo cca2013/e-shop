@@ -1,0 +1,18 @@
+
+
+{
+  
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "asdfaf",
+  "main": "seeder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder-d"
+  },
+  "author": "<'skafosbiz@gmail.com'>",
+  "license": "MIT"
+}
