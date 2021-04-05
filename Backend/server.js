@@ -1,4 +1,4 @@
-
+'use strict'
 
 import express from "express"
 import dotenv from "dotenv"
@@ -11,6 +11,7 @@ import userRoute from "./routes/userRoute.js"
 import orderRoute from "./routes/orderRoute.js"
 import uploadRoute from "./routes/uploadRoute.js"
 import morgan from "morgan"
+
 
 dotenv.config()
 connectDB()

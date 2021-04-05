@@ -2,12 +2,12 @@ const products = [
   {
  
     name: 'Airpods Wireless Bluetooth Headphones',
-    image: '/images/airpods.jpg',
+    image: 'https://www.e-shop.gr/images/TEL/SMALL/TEL.092503.jpg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
     category: 'Electronics',
-    price: 89.99,
+    price: 100.99,
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
@@ -15,7 +15,18 @@ const products = [
   {
 
     name: 'iPhone 11 Pro 256GB Memory',
-    image: '/images/phone.jpg',
+    image: '/images/playstation.jpg',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 699.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  { name: 'αΥΤΟΚΙΝΗΤΑ',
+    image: 'https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/iss064e039827_0.jpg',
     description:
       'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
     brand: 'Apple',
@@ -29,6 +40,19 @@ const products = [
 
     name: 'Cannon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
+    description:
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+   {
+
+    name: 'δοκιμαστική Camera',
+    image: 'https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/51069696391_fa096c36cf_o.jpeg',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
     brand: 'Cannon',
@@ -67,7 +91,7 @@ const products = [
   {
     
     name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
+    image: 'https://sc02.alicdn.com/kf/HTB1T0TCqMoQMeJjy1Xaq6ASsFXaA/Everbright-Max-speed-25km-h-ST-02.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
     brand: 'Amazon',
@@ -76,6 +100,19 @@ const products = [
     countInStock: 0,
     rating: 4,
     numReviews: 12,
+  },
+    {
+ 
+    name: 'FERRARI',
+    image: 'https://sc02.alicdn.com/kf/HTB1T0TCqMoQMeJjy1Xaq6ASsFXaA/Everbright-Max-speed-25km-h-ST-02.jpg',
+    description:
+      'RACING CAR',
+    brand: 'FERRARI',
+    category: 'cars',
+    price: 15650000.99,
+    countInStock: 10,
+    rating: 4,
+    numReviews: 1,
   },
 ]
 

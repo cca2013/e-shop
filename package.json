@@ -13,20 +13,27 @@
     "data:destroy": "node Backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-
   "author": "MOZI47",
   "license": "ISC",
   "dependencies": {
+    "@paypal/checkout-server-sdk": "1.0.2",
+    "@paypal/react-paypal-js": "5.0.0",
     "bcrypt": "5.0.1",
     "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
     "colors": "1.4.0",
+    "cors": "2.8.5",
     "dotenv": "8.2.0",
     "express": "4.17.1",
     "express-async-handler": "1.1.4",
     "jsonwebtoken": "8.5.1",
     "mongoose": "5.12.0",
     "morgan": "1.10.0",
-    "multer": "1.4.2"
+    "multer": "1.4.2",
+    "paypal": "1.0.1",
+    "paypal-rest-sdk": "1.8.1",
+    "react-stripe-checkout": "2.6.3",
+    "stripe": "8.138.0"
   },
   "devDependencies": {
     "concurrently": "5.3.0",

@@ -10,7 +10,9 @@ export const login = (email,password)=>async(dispatch)=>{
 
         const config = {
             headers:{
-                "Content-Type":"application/json"
+                "Content-Type":"application/json",
+				
+	
             }
         }
 
@@ -46,7 +48,8 @@ export const register = (name,email,password)=>async(dispatch)=>{
 
         const config = {
             headers:{
-                "Content-Type":"application/json"
+                "Content-Type":"application/json",
+				
             }
         }
 
@@ -139,6 +142,7 @@ export const getUsers = ()=>async(dispatch, getState)=>{
         
         const config = {
             headers:{
+				 "Content-Type":"application/json",
                 Authorization: `Bearer ${userInfo.token}`
             }
         }
@@ -167,6 +171,7 @@ export const deleteUser = (id)=>async(dispatch, getState)=>{
         
         const config = {
             headers:{
+				 "Content-Type":"application/json",
                 Authorization: `Bearer ${userInfo.token}`
             }
         }
